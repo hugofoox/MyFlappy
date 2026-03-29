@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ControlPlayer",
+    "maps": [
+        {
+            "name": "Aviao",
+            "id": "4d36606e-3e12-421b-889d-a26eb3f1001d",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "a62fb89d-2585-4406-b50d-86e1132b1962",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7520bee5-ffc8-4742-beaa-427945864374",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
